@@ -1,0 +1,15 @@
+# Игнорировать большие файлы и временные данные
+data/
+*.csv
+*.parquet
+*.zip
+*.gz
+
+# Jupyter / Python служебные файлы
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Системные файлы
+.DS_Store
+Thumbs.db
